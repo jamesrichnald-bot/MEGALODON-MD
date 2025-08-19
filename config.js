@@ -8,10 +8,10 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     // ===== BOT CORE SETTINGS =====
 
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
-    PREFIX: process.env.PREFIX || ".",  // Command prefix (e.g., "., / ! * - +")
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~pUQn2SAI#yHd0DiCMK0QWq1giuhrLXoxRkzGhc_7J3X4Ugrlp1s0",  // Your bot's session ID (keep it secure)
+    PREFIX: process.env.PREFIX || "+",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "MEGALODON-MD",  // Bot's display name
-    MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
+    MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
     OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
     
@@ -72,6 +72,6 @@ module.exports = {
     
     WELCOME: process.env.WELCOME || "false",
 
-    GOODBYE: process.env.GOODBYE || "true",
+    GOODBYE: process.env.GOODBYE || "false",
    
 };
